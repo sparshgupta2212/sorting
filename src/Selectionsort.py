@@ -10,7 +10,6 @@ def selectionSort(array):
         temp = array[i]
         array[i] = array[minimum]
         array[minimum] = temp
-
     return array
 
 
