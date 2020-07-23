@@ -11,7 +11,5 @@ def selectionSort(array):
         array[i] = array[minimum]
         array[minimum] = temp
     return array
-
-
 array = [99, 55, 29, 1, 56, 35, 45, 75, 89, 52]
 print(selectionSort(array))
